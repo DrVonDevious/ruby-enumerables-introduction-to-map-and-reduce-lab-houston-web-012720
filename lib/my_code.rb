@@ -49,8 +49,21 @@ def reduce_to_total(array, starting_point = 0)
 end
 
 def reduce_to_all_true(array)
-  
+  i = 0
+  total = 0 + starting_point
+  while i < array.length do
+    total += array[i]
+    i += 1
+  end
+  total  
 end
 
 def reduce_to_any_true(array)
+  i = 0
+  total = 0 + starting_point
+  while i < array.length do
+    total += array[i]
+    i += 1
+  end
+  total
 end
