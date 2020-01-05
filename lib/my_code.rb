@@ -62,9 +62,12 @@ end
 
 def reduce_to_any_true(array)
   i = 0
+  result = false
   while i < array.length do
-    array.delete_at(i)
+    if array[i] == true
+      result = true
+    end
     i += 1
   end
-  array
+  result
 end
