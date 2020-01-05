@@ -29,13 +29,13 @@ def map_to_double(array)
 end
 
 def map_to_square(array)
-    i = 0
+  i = 0
   new_array = []
   while i < array.length do
     new_array.push(array[i] ** 2)
     i += 1
   end
-  new_array
+  new_array  
 end
 
 def reduce_to_total(array, starting_point = 0)
@@ -49,7 +49,12 @@ def reduce_to_total(array, starting_point = 0)
 end
 
 def reduce_to_all_true(array)
-  return array
+  i = 0
+  while i < array.length do
+    
+    i += 1
+  end
+  new_array
 end
 
 def reduce_to_any_true(array)
