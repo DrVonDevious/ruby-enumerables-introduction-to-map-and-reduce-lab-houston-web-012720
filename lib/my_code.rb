@@ -50,13 +50,14 @@ end
 
 def reduce_to_all_true(array)
   i = 0
+  result = true
   while i < array.length do
     if array[i] == false
-      array.delete_at(i)
+      result = false
     end
     i += 1
   end
-  return true
+  result
 end
 
 def reduce_to_any_true(array)
