@@ -61,5 +61,5 @@ def reduce_to_any_true(array)
     array.delete_at(i)
     i += 1
   end
-  return true
+  return false
 end
