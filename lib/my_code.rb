@@ -51,7 +51,7 @@ end
 def reduce_to_all_true(array)
   i = 0
   while i < array.length do
-    unless array[i] == true || array[i] == 1
+    unless array[i] == true or array[i] == 1
       array.delete_at(i) 
     end
     i += 1
