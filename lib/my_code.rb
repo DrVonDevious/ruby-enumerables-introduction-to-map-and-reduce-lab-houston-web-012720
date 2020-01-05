@@ -53,6 +53,7 @@ def reduce_to_all_true(array)
   while i < array.length do
     i += 1
   end
+  array
 end
 
 def reduce_to_any_true(array)
@@ -61,5 +62,5 @@ def reduce_to_any_true(array)
     array.delete_at(i)
     i += 1
   end
-  return false
+  array
 end
